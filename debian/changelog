@@ -1,3 +1,9 @@
+unfold (1.0.2) adrien; urgency=medium
+
+  * desktop: Use a generic name
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 13 Oct 2026 15:08:01 +0100
+
 unfold (1.0.1) adrien; urgency=medium
 
   * ui: Add a Type column
