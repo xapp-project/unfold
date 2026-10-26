@@ -1,3 +1,10 @@
+unfold (1.0.3) adrien; urgency=medium
+
+  [ Butterfly ]
+  * Merge pull request #2 from kelebek333/master
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 26 Oct 2026 14:38:46 +0000
+
 unfold (1.0.2) adrien; urgency=medium
 
   * desktop: Use a generic name
