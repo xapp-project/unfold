@@ -1,0 +1,367 @@
+# Latvian translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-15 19:11+0000\n"
+"Last-Translator: K9 <Unknown>\n"
+"Language-Team: Latvian <lv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Unfold"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Arhīva pārvaldnieks"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Izveidot, pārlūkot un izvilkt arhīvus"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "arhīvs;zip;tar;7z;rar;saspiest;izvilkt;atarhivēt;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Saspiest..."
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Izveidot saspiestu arhīvu ar atlasītajiem objektiem"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Izvilkt šeit"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Izvilkt izvēlēto arhīvu pašreizējā atrašanās vietā"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Izvilkt uz..."
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Izvilkt atlasīto arhīvu"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Izvilkt uz"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Izvilkt"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d fails jau eksistē"
+msgstr[1] "%d faili jau eksistē"
+msgstr[2] "%d faili jau eksistē"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Vai vēlies to aizstāt ar to no arhīva?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Vai vēlies tās aizstāt ar tām no arhīva?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Izlaist"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Aizstāt"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Nepieciešama parole"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Parole netika pieņemta. Mēģini vēlreiz."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Šis arhīvs ir aizsargāts ar paroli."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "LABI"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Izveidot arhīvu"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Izveidot"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Pievienot failus…"
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Pievienot mapi..."
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Noņemt"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Atlasīt mapi"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Neobligāti"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Rādīt"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Parole"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Nosaukums"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Formāts"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Atrašanās vieta"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Pievienot"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Pievienot failus"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Pievienot mapi"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Nevar atvērt arhīvu"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Atver"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Nepareiza parole"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Parole netika pieņemta."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Nevarēja izvilkt"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Izvelk"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” jau pastāv"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Vai vēlies to aizstāt?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Nevarēja izveidot arhīvu"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Izveido"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Šis arhīvs izmanto kompresijas metodi, kuru 7-Zip nespēj nolasīt.\n"
+"Rar arhīviem instalē 7zip-rar pakotni."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Programma"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Audio"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Fonts"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Attēls"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Arhīvs"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Marķēšana"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Teksts"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Video"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Kalendārs"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Dokuments"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Prezentācija"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Izklājlapa"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Mape"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Binārs"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Par"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Iziet"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Atvērt arhīvu vai izveidot jaunu"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Atvērt..."
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Izveidot..."
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Ritini pa kreisi"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Ritini pa labi"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Izmērs"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Tips"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Modificēts"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d vienums atlasīts"
+msgstr[1] "%d vienumi atlasīti"
+msgstr[2] "%d vienumi atlasīti"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d vienums"
+msgstr[1] "%d vienumi"
+msgstr[2] "%d vienumu"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Atvērt arhīvu"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Atvērt"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Arhīvi"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Visi faili"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "Neizdevās atvērt failu"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Izvilkt mapē ar nosaukumu “%s”"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "Nevarēja atvērt mapi"

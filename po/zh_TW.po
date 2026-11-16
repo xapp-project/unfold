@@ -1,0 +1,361 @@
+# Chinese (Traditional) translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-14 03:07+0000\n"
+"Last-Translator: Steven Liao <stevenliao0119@yahoo.com.tw>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Unfold"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "封存檔管理員"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "建立、瀏覽與解開封存檔"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "封存檔;zip;tar;7z;rar;壓縮;解壓縮;unzip;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "壓縮…"
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "將選取的物件製作成壓縮檔"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "解壓縮至此"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "將選取的封存檔解壓縮至目前位置"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "解壓縮至..."
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "將選取的封存檔解壓縮"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "選擇解壓縮位置"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "取消"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "解壓縮"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d 個檔案已存在"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "是否用封存檔中的檔案取代這個檔案？"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "是否用封存檔中的檔案取代這些檔案？"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "略過"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "取代"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "需要密碼"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "密碼不正確，請再試一次。"
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "此封存檔受到密碼保護。"
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "確定"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "建立封存檔"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "建立"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "加入檔案…"
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "加入資料夾…"
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "移除"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "選擇資料夾"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "選填"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "顯示"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "密碼"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "名稱"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "格式"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "位置"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "加入"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "加入檔案"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "加入資料夾"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "無法開啟封存檔"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "開啟中"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "密碼錯誤"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "密碼不正確。"
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "無法解壓縮"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "解壓縮中"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "「%s」已存在"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "是否取代現有檔案？"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "無法建立封存檔"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "建立中"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"此封存檔使用 7-Zip 無法讀取的壓縮方法。\n"
+"若為 RAR 封存檔，請安裝 7zip-rar 套件。"
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "程式"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "音訊"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "字型"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "影像"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "封存檔"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "標記"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "文字"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "影片"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "聯絡人"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "行事曆"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "文件"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "簡報"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "試算表"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "資料夾"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "二進位檔案"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "關於"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "結束"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "開啟封存檔或建立新的封存檔"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "開啟…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "建立…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "向左捲動"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "向右捲動"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "大小"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "類型"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "修改時間"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "已選取 %d 個項目"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 個項目"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "開啟封存檔"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "開啟"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "封存檔"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "所有檔案"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "無法開啟檔案"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "解壓縮至名為「%s」的資料夾"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "無法開啟資料夾"

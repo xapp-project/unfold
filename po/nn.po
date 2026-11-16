@@ -1,0 +1,364 @@
+# Norwegian Nynorsk translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-16 19:37+0000\n"
+"Last-Translator: Simen Ryland Førde <Unknown>\n"
+"Language-Team: Norwegian Nynorsk <nn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Unfold"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Arkivhandsamar"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Opprett, bla gjennom og pakk ut arkiv"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "arkiv;zip;tar;7z;rar;komprimer;pakk ut;pakk ut zip;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Komprimer..."
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Lag eit komprimert arkiv med dei valde objekta"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Pakk ut her"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Pakk ut det valde arkivet til gjeldande plassering"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Pakk ut til..."
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Pakk ut det valde arkivet"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Pakk ut til"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Pakk ut"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d fil finst allereie"
+msgstr[1] "%d filer finst allereie"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Vil du byte den ut med fila frå arkivet?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Vil du byte dei ut med filene frå arkivet?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Hopp over"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Erstatt"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Passord påkravd"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Passordet vart ikkje godteke. Prøv på nytt."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Dette arkivet er beskytta med passord."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "OK"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Opprett arkiv"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Opprett"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Legg til filer…"
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Legg til mappe…"
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Fjern"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Vel ei mappe"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Valfri"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Vis"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Passord"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Namn"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Format"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Plassering"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Legg til"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Legg til filer"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Legg til mappe"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Klarte ikkje å opne arkivet"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Opnar"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Feil passord"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Passordet vart ikkje godteke."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Klarte ikkje å pakke ut"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Pakkar ut"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” finst allereie"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Vil du erstatte den?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Klarte ikkje å opprette arkivet"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Opprettar"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Dette arkivet brukar ein komprimeringsmetode som 7-Zip ikkje kan lese.\n"
+"For rar-arkiv, installer pakken 7zip-rar."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Program"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Audio"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Skrifttype"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Bilete"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Arkiv"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Oppmerking"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Tekst"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Video"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Kontaktar"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Kalender"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Dokument"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Presentasjon"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Rekneark"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Mappe"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Binær"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Om"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Avslutt"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Opne eit arkiv eller opprett eit nytt"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Opne…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Opprett…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Rull til venstre"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Rull til høgre"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Storleik"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Type"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Endra"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d valt element"
+msgstr[1] "%d valde element"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d element"
+msgstr[1] "%d element"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Opne arkiv"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Opne"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Arkiv"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Alle filer"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "Klarte ikkje å opne fila"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Pakk ut til ei mappe med namnet “%s”"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "Klarte ikkje å opne mappa"

@@ -1,0 +1,367 @@
+# Slovak translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-11-09 17:29+0000\n"
+"Last-Translator: Vendelín Slezák <Unknown>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Rozvinúť"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Správca archívov"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Vytváranie, prehliadanie a rozbaľovanie archívov"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "archív;zip;tar;7z;rar;komprimovať;extrahovať;odzipovať;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Komprimovať..."
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Vytvoriť komprimovaný archív s vybranými objektami"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Rozbaliť sem"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Rozbaliť zvolený archív na vybrané miesto"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Rozbaliť do…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Rozbaliť zvolený archív"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Extrahovať do"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Extrahovať"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d súbor už existuje"
+msgstr[1] "%d súbory už existujú"
+msgstr[2] "%d súborov už existuje"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Chcete ho nahradiť tým z archívu?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Chcete ich nahradiť tými z archívu?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Preskočiť"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Nahradiť"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Vyžaduje sa heslo"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Heslo nebolo akceptované. Skúste znova."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Tento archív je chránený heslom."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "OK"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Vytvoriť archív"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Pridať súbory..."
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Pridať priečinok..."
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Vybrať prečinok"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Voliteľné"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Zobraziť"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Heslo"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Názov"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Formát"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Pridať"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Pridať súbory"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Pridať priečinok"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Nepodarilo sa otvoriť archív"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Otvára sa"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Nesprávne heslo"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Heslo nebolo akceptované."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Nepodarilo sa extrahovať"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Extrahuje sa"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” už existuje"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Chcete ho nahradiť?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Nepodarilo sa vytvoriť archív"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Vytváram"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Tento archív používa komprimačnú metódu ktorú 7-Zip nedokáže prečítať.\n"
+"Pre rar archívy nainštalujte balíček 7zip-rar."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Program"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Zvuk"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Písmo"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Obrázok"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Archív"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Formátovaný text"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Text"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Video"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Kalendár"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Dokument"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Prezentácia"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Tabuľkový zošit"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Priečinok"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Binárka"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "O programe"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Ukončiť"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Otvorte archív alebo vytvorte nový"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Otvoriť…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Vytvoriť…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Posunúť doľava"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Posunúť doprava"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Veľkosť"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Typ"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Zmenené"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d vybraná položka"
+msgstr[1] "%d vybrané položky"
+msgstr[2] "%d vybraných položiek"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d položka"
+msgstr[1] "%d položky"
+msgstr[2] "%d položiek"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Otvoriť archív"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Otvoriť"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Archívy"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Všetky súbory"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "Nepodarilo sa otvoriť súbor"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Extrahovať do priečinku nazvaného “%s”"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "Nepodarilo sa otvoriť priečinok"

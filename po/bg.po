@@ -1,0 +1,365 @@
+# Bulgarian translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-13 16:56+0000\n"
+"Last-Translator: Peyu Yovev <Unknown>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Unfold"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Архивен мениджър"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Създава, преглежда и извлича архиви"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "архив;zip;tar;7z;rar;копресира;извлича;unzip;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Компресиране…"
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Създай компресиран архив с избраните обекти"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Разархивирай тук"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Разархивиране на избрания архив тук"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Разархивирай в…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Разархивирай избрания архив"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Разархивирай в"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Отказ"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Разархивиране"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d файла вече съществува"
+msgstr[1] "%d файловете вече съществуват"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Искате ли да го замените с този от архива?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Искате ли да ги замените с тези от архива?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Пропускане"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Замяна"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Изисква се парола"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Паролата е грешна. Опитайте отново."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Този архив е защитен с парола."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "Добре"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Създаване на архив"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Създай"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Добавяне на файлове...."
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Добавяне на папка..."
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Премахване"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Избор на папка"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "По избор"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Показване"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Парола"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Име"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Формат"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Локация"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Добавяне"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Добавяне на файлове"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Добавяне на папка"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Този архив не може да се отвори"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Отваряне"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Грешна парола"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Паролата не беше приета."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Не може да се извлече"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Извличане"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” вече съществува"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Искате ли да го замените?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Архивът не може да бъде създаден"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Създаване"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Този архив използва метод на компресия, който не може да бъде прочетен от  7-"
+"Zip.\n"
+"За rar архиви, инсталирайте пакета 7zip-rar."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Програма"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Аудио"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Шрифт"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Изображение"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Архив"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Текст с маркери"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Текст"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Видео"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Контакти"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Календар"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Документ"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Презентация"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Електронна таблица"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Папка"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Бинарно"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Относно"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Изход"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Отваряне или създаване на архив"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Отваряне…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Създаване…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Превъртане наляво"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Превъртане надясно"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Размер"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Тип"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Променен"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d избран елемент"
+msgstr[1] "%d избрани елемента"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d елемент"
+msgstr[1] "%d елемента"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Отваряне на архив"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Отвoри"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Архиви"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Всички файлове"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "Файла не може да се отвори"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Разархивирай в папка с име “%s”"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "Папката не може да се отвори"

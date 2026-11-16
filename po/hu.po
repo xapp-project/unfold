@@ -1,0 +1,368 @@
+# Hungarian translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-11-08 17:06+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: hu\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Kicsomagolás"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Archívumkezelő"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Archívumok létrehozása, böngészése és kicsomagolása"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr ""
+"archive;zip;tar;7z;rar;compress;extract;unzip;;archívum;tömörítés;kicsomagolá"
+"s;kibontás;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Tömörítés…"
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Tömörített archívum létrehozása a kijelölt objektumokkal"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Kibontás ide"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "A kijelölt archívum kibontása a jelenlegi helyre"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Kibontás ide…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "A kijelölt archívum kibontása"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Kicsomagolás ide"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Mégse"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Kibontás"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d fájl már létezik"
+msgstr[1] "%d fájl már létezik"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Lecseréli az archívumban lévővel?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Lecseréli őket az archívumban lévőkkel?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Kihagyás"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Csere"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Jelszó szükséges"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "A jelszó nem lett elfogadva. Próbálja újra."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Ezt az archívumot jelszó védi."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "OK"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Archívum létrehozása"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Létrehozás"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Fájlok hozzáadása…"
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Mappa hozzáadása…"
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Mappa kiválasztása"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Elhagyható"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Megjelenítés"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Jelszó"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Név"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Formátum"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Hely"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Fájlok hozzáadása"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Mappa hozzáadása"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Az archívum nem nyitható meg"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Megnyitás"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Hibás jelszó"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "A jelszó nem lett elfogadva."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Nem sikerült kicsomagolni"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Kicsomagolás"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "A(z) „%s” már létezik"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Lecseréli?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Nem sikerült létrehozni az archívumot"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Létrehozás"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Ez az archívum olyan tömörítési módszert használ, amelyet a 7-Zip nem tud "
+"olvasni.\n"
+"Rar archívumokhoz telepítse a 7zip-rar csomagot."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Program"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Hang"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Betűkészlet"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Kép"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Archívum"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Jelölőkód"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Szöveg"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Videó"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Kapcsolatok"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Naptár"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Dokumentum"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Prezentáció"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Táblázat"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Mappa"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Bináris"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Névjegy"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Kilépés"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Nyisson meg egy archívumot, vagy hozzon létre újat"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Megnyitás…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Létrehozás…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Görgetés balra"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Görgetés jobbra"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Méret"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Típus"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Módosítva"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d elem kijelölve"
+msgstr[1] "%d elem kijelölve"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d elem"
+msgstr[1] "%d elem"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Archívum megnyitása"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Megnyitás"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Archívumfájlok"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Minden fájl"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "A fájl nem nyitható meg"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Kicsomagolás a(z) „%s” nevű mappába"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "A mappa nem nyitható meg"

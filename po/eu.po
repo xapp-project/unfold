@@ -1,0 +1,365 @@
+# Basque translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-22 13:46+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Zabaldu"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Artxibo-kudeatzailea"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Sortu, arakatu eta erauzi artxiboak"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "artxiboa;zip;tar;7z;rar;konprimatu;erauzi;unzip"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Konprimatu..."
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Sortu konprimatutako artxiboa hautatutako objektuekin"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Erauzi hemen"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Erauzi hautatutako artxiboa uneko kokapenera"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Erauzi hona…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Erauzi hautatutako artxiboa"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Erauzi hona"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Utzi"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Erauzi"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "Fitxategi %d badago jada"
+msgstr[1] "%d fitxategi badaude jada"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "Artxibokoarekin ordezkatu nahi duzu?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "Artxibokoekin ordezkatu nahi dituzu?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Saltatu"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Ordezkatu"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Pasahitza behar da"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Pasahitza ez da onartu. Saiatu berriro."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Artxibo hau pasahitzarekin babestuta dago."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "Ados"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Sortu artxiboa"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Sortu"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Gehitu fitxategiak..."
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Gehitu karpeta..."
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Kendu"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Hautatu karpeta"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Hautazkoa"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Erakutsi"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Pasahitza"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Izena"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Formatua"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Kokalekua"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Gehitu"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Gehitu fitxategiak"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Gehitu karpeta"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "Ezin izan da artxiboa ireki"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Irekitzen"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Pasahitz okerra"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Pasahitza ez da onartu."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "Ezin izan da erauzi"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Erauzten"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” dagoeneko existitzen da"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "Ordezkatu nahi duzu?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "Ezin izan da artxiboa sortu"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Sortzen"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Artxibo honek 7-Zip-ek irakurri ezin duen konpresio-metodo bat erabiltzen "
+"du.\n"
+"Rar artxiboetarako, instalatu 7zip-rar paketea."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Programa"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Audioa"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Letra-tipoa"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Irudia"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Artxiboa"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Marka"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Testua"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Bideoa"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Kontaktuak"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Egutegia"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Dokumentua"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Aurkezpena"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Kalkulu-orria"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Karpeta"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Bitarra"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Honi buruz"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Irten"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Ireki artxibo bat edo sortu berria"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Ireki…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Sortu..."
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Korritu ezkerrera"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Korritu eskuinera"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Tamaina"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Mota"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Aldatze-data"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "Elementu %d hautatuta"
+msgstr[1] "%d elementu hautatuta"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "Elementu %d"
+msgstr[1] "%d elementu"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Ireki artxiboa"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Ireki"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Artxiboak"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Fitxategi denak"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "Ezin izan da fitxategia ireki"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Erauzi \"%s\" izeneko karpeta batetara"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "Ezin izan da karpeta ireki"

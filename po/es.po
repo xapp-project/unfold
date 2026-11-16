@@ -1,0 +1,364 @@
+# Spanish translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-10-13 21:35+0000\n"
+"Last-Translator: Isidro Pisa <isidro@pisa.red>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "Unfold"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "Administrador de archivos"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "Crear, examinar y extraer archivos"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "comprimir;extraer;archive;zip;tar;7z;rar;compress;extract;unzip;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "Comprimir…"
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "Crear un archivo comprimido con los objetos seleccionados"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "Extraer aquí"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "Extraer el archivo seleccionado en la posición actual"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "Extraer en…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "Extraer el archivo seleccionado"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "Extraer en"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "Extraer"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d fichero ya existe"
+msgstr[1] "%d ficheros ya existen"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "¿Quiere reemplazarlo por el del archivo?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "¿Quiere reemplazarlos por los del archivo?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "Omitir"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "Se requiere una contraseña"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "Contraseña rechazada. Inténtelo de nuevo."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "Este archivo está protegido por contraseña."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "Aceptar"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "Crear un archivo"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "Crear"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "Añadir ficheros..."
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "Añadir carpeta…"
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "Eliminar"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "Seleccione una carpeta"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "Opcional"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "Mostrar"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "Contraseña"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "Nombre"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "Formato"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "Ubicación"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "Añadir"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "Añadir ficheros"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "Añadir carpeta"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "No se pudo abrir el archivo"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "Apertura"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "Contraseña incorrecta"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "Contraseña rechazada."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "No se pudo extraer"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "Extrayendo"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” ya existe"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "¿Quiere reemplazarlo?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "No se pudo crear el archivo"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "Creando"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"Este archivo utiliza un método de compresión que 7-Zip no puede leer.\n"
+"Para archivos RAR, instale el paquete 7zip-rar."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "Programa"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "Audio"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "Fuente"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "Imagen"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "Archivar"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "Marcado"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "Texto"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "Vídeo"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "Contactos"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "Calendario"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "Documento"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "Presentación"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "Hoja de cálculo"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "Carpeta"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "Binario"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "Acerca de"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "Salir"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "Abrir un archivo o crear uno nuevo"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "Abrir…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "Crear…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "Desplazar a la izquierda"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "Desplazar a la derecha"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "Tamaño"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "Tipo"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "Modificado"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d elemento seleccionado"
+msgstr[1] "%d elementos seleccionados"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d elemento"
+msgstr[1] "%d elementos"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "Abrir archivo"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "Abrir"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "Archivos"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "Todos los fichreos"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "No se pudo abrir el fichero"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "Extraer en una carpeta llamada \"%s\""
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "No se pudo abrir la carpeta"
