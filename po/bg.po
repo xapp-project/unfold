@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-10-12 17:06+0100\n"
-"PO-Revision-Date: 2026-10-13 16:56+0000\n"
-"Last-Translator: Peyu Yovev <Unknown>\n"
+"PO-Revision-Date: 2026-11-23 17:37+0000\n"
+"Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
 
 #: data/org.x.unfold.desktop.in:2
 msgid "Unfold"
@@ -32,7 +32,7 @@ msgstr "Създава, преглежда и извлича архиви"
 
 #: data/org.x.unfold.desktop.in:10
 msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
-msgstr "архив;zip;tar;7z;rar;копресира;извлича;unzip;"
+msgstr "архив;zip;tar;7z;rar;компресира;извлича;unzip;"
 
 #: data/nemo/unfold-compress.nemo_action.in:2
 msgid "Compress..."
@@ -44,7 +44,7 @@ msgstr "Създай компресиран архив с избраните о�
 
 #: data/nemo/unfold-extract-here.nemo_action.in:2
 msgid "Extract Here"
-msgstr "Разархивирай тук"
+msgstr "Разархивиране тук"
 
 #: data/nemo/unfold-extract-here.nemo_action.in:3
 msgid "Extract the selected archive to the current position"
@@ -52,15 +52,15 @@ msgstr "Разархивиране на избрания архив тук"
 
 #: data/nemo/unfold-extract-to.nemo_action.in:2
 msgid "Extract To..."
-msgstr "Разархивирай в…"
+msgstr "Разархивиране в..."
 
 #: data/nemo/unfold-extract-to.nemo_action.in:3
 msgid "Extract the selected archive"
-msgstr "Разархивирай избрания архив"
+msgstr "Разархивиране на избрания архив"
 
 #: unfold/application.py:125 unfold/window.py:408
 msgid "Extract to"
-msgstr "Разархивирай в"
+msgstr "Разархивиране в"
 
 #: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
 #: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
@@ -76,8 +76,8 @@ msgstr "Разархивиране"
 #, python-format
 msgid "%d file already exists"
 msgid_plural "%d files already exist"
-msgstr[0] "%d файла вече съществува"
-msgstr[1] "%d файловете вече съществуват"
+msgstr[0] "%d файл вече съществува"
+msgstr[1] "%d файла вече съществуват"
 
 #: unfold/dialogs.py:34
 msgid "Do you want to replace it with the one from the archive?"
@@ -121,11 +121,11 @@ msgstr "Създай"
 
 #: unfold/dialogs.py:133
 msgid "Add Files…"
-msgstr "Добавяне на файлове...."
+msgstr "Добавяне на файлове…"
 
 #: unfold/dialogs.py:133
 msgid "Add Folder…"
-msgstr "Добавяне на папка..."
+msgstr "Добавяне на папка…"
 
 #: unfold/dialogs.py:134
 msgid "Remove"
@@ -198,7 +198,7 @@ msgstr "Извличане"
 #: unfold/dialogs.py:293
 #, python-format
 msgid "“%s” already exists"
-msgstr "“%s” вече съществува"
+msgstr "„%s“ вече съществува"
 
 #: unfold/dialogs.py:294
 msgid "Do you want to replace it?"
@@ -279,7 +279,7 @@ msgstr "Папка"
 
 #: unfold/window.py:91
 msgid "Binary"
-msgstr "Бинарно"
+msgstr "Двоично"
 
 #: unfold/window.py:119
 msgid "About"
@@ -353,12 +353,12 @@ msgstr "Всички файлове"
 
 #: unfold/window.py:403
 msgid "Could not open the file"
-msgstr "Файла не може да се отвори"
+msgstr "Файлът не може да се отвори"
 
 #: unfold/window.py:414
 #, python-format
 msgid "Extract into a folder named “%s”"
-msgstr "Разархивирай в папка с име “%s”"
+msgstr "Разархивиране в папка с име „%s“"
 
 #: unfold/window.py:436
 msgid "Could not open the folder"

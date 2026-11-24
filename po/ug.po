@@ -1,362 +1,362 @@
 # Uyghur translation for linuxmint
 # Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+# Abduqadir Abliz <sahranbay@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-10-12 17:06+0100\n"
-"PO-Revision-Date: 2026-11-03 06:26+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-11-22 23:54+0000\n"
+"Last-Translator: Abduqadir Abliz <Unknown>\n"
 "Language-Team: Uyghur <ug@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
+"Language: ug\n"
 
 #: data/org.x.unfold.desktop.in:2
 msgid "Unfold"
-msgstr ""
+msgstr "Unfold"
 
 #: data/org.x.unfold.desktop.in:3
 msgid "Archive Manager"
-msgstr ""
+msgstr "ئارخىپ باشقۇرغۇچ"
 
 #: data/org.x.unfold.desktop.in:4 unfold/application.py:159
 msgid "Create, browse and extract archives"
-msgstr ""
+msgstr "ئارخىپ قۇرۇپ، كۆز يۈگۈرتۈپ ۋە يېشىدۇ"
 
 #: data/org.x.unfold.desktop.in:10
 msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
-msgstr ""
+msgstr "archive;zip;tar;7z;rar;compress;extract;unzip;يەش;قىس;ئاجرات;ياي;"
 
 #: data/nemo/unfold-compress.nemo_action.in:2
 msgid "Compress..."
-msgstr ""
+msgstr "قىس…"
 
 #: data/nemo/unfold-compress.nemo_action.in:3
 msgid "Create a compressed archive with the selected objects"
-msgstr ""
+msgstr "تاللانغاندىن قىسىلغان ئارخىپ قۇر"
 
 #: data/nemo/unfold-extract-here.nemo_action.in:2
 msgid "Extract Here"
-msgstr ""
+msgstr "بۇ جايغا يەش"
 
 #: data/nemo/unfold-extract-here.nemo_action.in:3
 msgid "Extract the selected archive to the current position"
-msgstr ""
+msgstr "تاللانغان ئارخىپنى نۆۋەتتىكى ئورۇنغا يەش"
 
 #: data/nemo/unfold-extract-to.nemo_action.in:2
 msgid "Extract To..."
-msgstr ""
+msgstr "يېشىش ئورنى…"
 
 #: data/nemo/unfold-extract-to.nemo_action.in:3
 msgid "Extract the selected archive"
-msgstr ""
+msgstr "تاللانغان ئارخىپنى يەش"
 
 #: unfold/application.py:125 unfold/window.py:408
 msgid "Extract to"
-msgstr ""
+msgstr "يېشىش ئورنى"
 
 #: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
 #: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
 #: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
 msgid "Cancel"
-msgstr ""
+msgstr "ۋاز كەچ"
 
 #: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
 msgid "Extract"
-msgstr ""
+msgstr "يەش"
 
 #: unfold/dialogs.py:33
 #, python-format
 msgid "%d file already exists"
 msgid_plural "%d files already exist"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ھۆججەت مەۋجۇت"
 
 #: unfold/dialogs.py:34
 msgid "Do you want to replace it with the one from the archive?"
-msgstr ""
+msgstr "ئۇنى ئارخىپتىكى بىرى بىلەن ئالماشتۇرامسىز؟"
 
 #: unfold/dialogs.py:36
 msgid "Do you want to replace them with the ones from the archive?"
-msgstr ""
+msgstr "ئۇلارنى ئارخىپتىكى بىرى بىلەن ئالماشتۇرامسىز؟"
 
 #: unfold/dialogs.py:37
 msgid "Skip"
-msgstr ""
+msgstr "ئاتلا"
 
 #: unfold/dialogs.py:38 unfold/dialogs.py:294
 msgid "Replace"
-msgstr ""
+msgstr "ئالماشتۇر"
 
 #: unfold/dialogs.py:47
 msgid "Password Required"
-msgstr ""
+msgstr "ئىم زۆرۈر"
 
 #: unfold/dialogs.py:48
 msgid "The password was not accepted. Try again."
-msgstr ""
+msgstr "ئىم قوبۇل قىلىنمىغان. قايتا سىناڭ."
 
 #: unfold/dialogs.py:49
 msgid "This archive is protected by a password."
-msgstr ""
+msgstr "بۇ ئارخىپ ئىم بىلەن قوغدالغان."
 
 #: unfold/dialogs.py:50
 msgid "OK"
-msgstr ""
+msgstr "جەزملە"
 
 #: unfold/dialogs.py:104
 msgid "Create Archive"
-msgstr ""
+msgstr "ئارخىپ قۇر"
 
 #: unfold/dialogs.py:107
 msgid "Create"
-msgstr ""
+msgstr "قۇر"
 
 #: unfold/dialogs.py:133
 msgid "Add Files…"
-msgstr ""
+msgstr "ھۆججەت قوش…"
 
 #: unfold/dialogs.py:133
 msgid "Add Folder…"
-msgstr ""
+msgstr "قىسقۇچ قوش…"
 
 #: unfold/dialogs.py:134
 msgid "Remove"
-msgstr ""
+msgstr "چىقىرىۋەت"
 
 #: unfold/dialogs.py:148
 msgid "Select a folder"
-msgstr ""
+msgstr "قىسقۇچ تاللىنىدۇ"
 
 #: unfold/dialogs.py:152
 msgid "Optional"
-msgstr ""
+msgstr "تاللاشچان"
 
 #: unfold/dialogs.py:153
 msgid "Show"
-msgstr ""
+msgstr "كۆرسەت"
 
 #: unfold/dialogs.py:159
 msgid "Password"
-msgstr ""
+msgstr "ئىم"
 
 #: unfold/dialogs.py:160 unfold/window.py:202
 msgid "Name"
-msgstr ""
+msgstr "ئاتى"
 
 #: unfold/dialogs.py:160
 msgid "Format"
-msgstr ""
+msgstr "پىچىم"
 
 #: unfold/dialogs.py:161
 msgid "Location"
-msgstr ""
+msgstr "ئورنى"
 
 #: unfold/dialogs.py:192
 msgid "Add"
-msgstr ""
+msgstr "قوش"
 
 #: unfold/dialogs.py:198
 msgid "Add Files"
-msgstr ""
+msgstr "ھۆججەت قوش"
 
 #: unfold/dialogs.py:201
 msgid "Add Folder"
-msgstr ""
+msgstr "قىسقۇچ قوش"
 
 #: unfold/dialogs.py:258
 msgid "Could not open the archive"
-msgstr ""
+msgstr "ئارخىپنى ئاچقىلى بولمىدى"
 
 #: unfold/dialogs.py:263
 msgid "Opening"
-msgstr ""
+msgstr "ئېچىۋاتىدۇ"
 
 #: unfold/dialogs.py:273
 msgid "Wrong password"
-msgstr ""
+msgstr "ئىم خاتا"
 
 #: unfold/dialogs.py:273
 msgid "The password was not accepted."
-msgstr ""
+msgstr "ئىم قوبۇل قىلىنمىغان."
 
 #: unfold/dialogs.py:276
 msgid "Could not extract"
-msgstr ""
+msgstr "يەشكىلى بولمىدى"
 
 #: unfold/dialogs.py:281
 msgid "Extracting"
-msgstr ""
+msgstr "يېشىۋاتىدۇ"
 
 #: unfold/dialogs.py:293
 #, python-format
 msgid "“%s” already exists"
-msgstr ""
+msgstr "«%s» مەۋجۇت"
 
 #: unfold/dialogs.py:294
 msgid "Do you want to replace it?"
-msgstr ""
+msgstr "ئۇنى ئالماشتۇرۇۋېتەمسىز؟"
 
 #: unfold/dialogs.py:302
 msgid "Could not create the archive"
-msgstr ""
+msgstr "ئارخىپ قۇرالمىدى"
 
 #: unfold/dialogs.py:307
 msgid "Creating"
-msgstr ""
+msgstr "قۇرۇۋاتىدۇ"
 
 #: unfold/sevenzip.py:70
 msgid ""
 "This archive uses a compression method that 7-Zip cannot read.\n"
 "For rar archives, install the 7zip-rar package."
 msgstr ""
+"بۇ ئارخىپ 7-Zip ئوقۇيالمايدىغان قىسىش ئۇسۇلىنى ئىشلىتىدۇ.\n"
+"rar ئارخىپ ئۈچۈن، 7zip-rar بوغچىسىنى ئورنىتىش كېرەك."
 
 #: unfold/window.py:67 unfold/window.py:75
 msgid "Program"
-msgstr ""
+msgstr "پىروگرامما"
 
 #: unfold/window.py:68
 msgid "Audio"
-msgstr ""
+msgstr "ئۈن"
 
 #: unfold/window.py:69
 msgid "Font"
-msgstr ""
+msgstr "خەت نۇسخا"
 
 #: unfold/window.py:70
 msgid "Image"
-msgstr ""
+msgstr "سۈرەت"
 
 #: unfold/window.py:71
 msgid "Archive"
-msgstr ""
+msgstr "ئارخىپ"
 
 #: unfold/window.py:72
 msgid "Markup"
-msgstr ""
+msgstr "بەلگە"
 
 #: unfold/window.py:73 unfold/window.py:74
 msgid "Text"
-msgstr ""
+msgstr "تېكىست"
 
 #: unfold/window.py:76
 msgid "Video"
-msgstr ""
+msgstr "سىن"
 
 #: unfold/window.py:77
 msgid "Contacts"
-msgstr ""
+msgstr "ئالاقەداش"
 
 #: unfold/window.py:78
 msgid "Calendar"
-msgstr ""
+msgstr "يىلنامە"
 
 #: unfold/window.py:79
 msgid "Document"
-msgstr ""
+msgstr "پۈتۈك"
 
 #: unfold/window.py:80
 msgid "Presentation"
-msgstr ""
+msgstr "كۆرسەتمە"
 
 #: unfold/window.py:81
 msgid "Spreadsheet"
-msgstr ""
+msgstr "ئېلېكتىرونلۇق جەدۋەل"
 
 #: unfold/window.py:88
 msgid "Folder"
-msgstr ""
+msgstr "قىسقۇچ"
 
 #: unfold/window.py:91
 msgid "Binary"
-msgstr ""
+msgstr "ئىككىلىك"
 
 #: unfold/window.py:119
 msgid "About"
-msgstr ""
+msgstr "ھەققىدە"
 
 #: unfold/window.py:121
 msgid "Quit"
-msgstr ""
+msgstr "چېكىن"
 
 #: unfold/window.py:157
 msgid "Open an archive or create a new one"
-msgstr ""
+msgstr "ئارخىپ ئاچىدۇ ياكى يېڭىدىن بىرنى قۇرىدۇ"
 
 #: unfold/window.py:161
 msgid "Open…"
-msgstr ""
+msgstr "ئاچ…"
 
 #: unfold/window.py:161
 msgid "Create…"
-msgstr ""
+msgstr "قۇر…"
 
 #: unfold/window.py:178
 msgid "Scroll left"
-msgstr ""
+msgstr "سولغا سىيرىل"
 
 #: unfold/window.py:181
 msgid "Scroll right"
-msgstr ""
+msgstr "ئوڭغا سىيرىل"
 
 #: unfold/window.py:215
 msgid "Size"
-msgstr ""
+msgstr "چوڭلۇقى"
 
 #: unfold/window.py:220
 msgid "Type"
-msgstr ""
+msgstr "تۈرى"
 
 #: unfold/window.py:224
 msgid "Modified"
-msgstr ""
+msgstr "ئۆزگەرتىلگەن ۋاقتى"
 
 #: unfold/window.py:262
 #, python-format
 msgid "%d item selected"
 msgid_plural "%d items selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d تۈر تاللاندى"
 
 #: unfold/window.py:265
 #, python-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‏‏%d تۈر"
 
 #: unfold/window.py:356
 msgid "Open Archive"
-msgstr ""
+msgstr "ئارخىپ ئاچ"
 
 #: unfold/window.py:358
 msgid "Open"
-msgstr ""
+msgstr "ئاچ"
 
 #: unfold/window.py:360
 msgid "Archives"
-msgstr ""
+msgstr "ئارخىپ"
 
 #: unfold/window.py:364
 msgid "All files"
-msgstr ""
+msgstr "ھەممە ھۆججەت"
 
 #: unfold/window.py:403
 msgid "Could not open the file"
-msgstr ""
+msgstr "ھۆججەتنى ئاچالمىدى"
 
 #: unfold/window.py:414
 #, python-format
 msgid "Extract into a folder named “%s”"
-msgstr ""
+msgstr "«%s» ئاتالغان قىسقۇچقا يېشىدۇ"
 
 #: unfold/window.py:436
 msgid "Could not open the folder"
-msgstr ""
+msgstr "قىسقۇچنى ئاچقىلى بولمىدى"

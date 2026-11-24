@@ -1,0 +1,361 @@
+# Korean translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-12 17:06+0100\n"
+"PO-Revision-Date: 2026-11-18 17:27+0000\n"
+"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
+
+#: data/org.x.unfold.desktop.in:2
+msgid "Unfold"
+msgstr "언폴드"
+
+#: data/org.x.unfold.desktop.in:3
+msgid "Archive Manager"
+msgstr "압축 관리자"
+
+#: data/org.x.unfold.desktop.in:4 unfold/application.py:159
+msgid "Create, browse and extract archives"
+msgstr "압축 파일을 만들고, 탐색하고, 풉니다"
+
+#: data/org.x.unfold.desktop.in:10
+msgid "archive;zip;tar;7z;rar;compress;extract;unzip;"
+msgstr "압축;zip;tar;7z;rar;압축;풀기;풀기;"
+
+#: data/nemo/unfold-compress.nemo_action.in:2
+msgid "Compress..."
+msgstr "압축하기..."
+
+#: data/nemo/unfold-compress.nemo_action.in:3
+msgid "Create a compressed archive with the selected objects"
+msgstr "선택한 항목으로 압축 파일을 만듭니다"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:2
+msgid "Extract Here"
+msgstr "여기에 풀기"
+
+#: data/nemo/unfold-extract-here.nemo_action.in:3
+msgid "Extract the selected archive to the current position"
+msgstr "선택한 압축 파일을 현재 위치에 풉니다"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:2
+msgid "Extract To..."
+msgstr "다른 위치에 풀기…"
+
+#: data/nemo/unfold-extract-to.nemo_action.in:3
+msgid "Extract the selected archive"
+msgstr "선택한 압축 파일을 풉니다"
+
+#: unfold/application.py:125 unfold/window.py:408
+msgid "Extract to"
+msgstr "다른 위치에 풀기"
+
+#: unfold/application.py:126 unfold/dialogs.py:23 unfold/dialogs.py:37
+#: unfold/dialogs.py:50 unfold/dialogs.py:65 unfold/dialogs.py:106
+#: unfold/dialogs.py:192 unfold/window.py:358 unfold/window.py:410
+msgid "Cancel"
+msgstr "취소"
+
+#: unfold/application.py:126 unfold/window.py:126 unfold/window.py:410
+msgid "Extract"
+msgstr "풀기"
+
+#: unfold/dialogs.py:33
+#, python-format
+msgid "%d file already exists"
+msgid_plural "%d files already exist"
+msgstr[0] "%d 파일이 이미 있습니다"
+
+#: unfold/dialogs.py:34
+msgid "Do you want to replace it with the one from the archive?"
+msgstr "압축 파일에 있는 항목으로 바꾸시겠습니까?"
+
+#: unfold/dialogs.py:36
+msgid "Do you want to replace them with the ones from the archive?"
+msgstr "압축 파일에 있는 항목으로 바꾸시겠습니까?"
+
+#: unfold/dialogs.py:37
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: unfold/dialogs.py:38 unfold/dialogs.py:294
+msgid "Replace"
+msgstr "바꾸기"
+
+#: unfold/dialogs.py:47
+msgid "Password Required"
+msgstr "비밀번호 필요"
+
+#: unfold/dialogs.py:48
+msgid "The password was not accepted. Try again."
+msgstr "비밀번호가 다릅니다. 다시 시도해 주세요."
+
+#: unfold/dialogs.py:49
+msgid "This archive is protected by a password."
+msgstr "비밀번호로 보호된 압축 파일입니다."
+
+#: unfold/dialogs.py:50
+msgid "OK"
+msgstr "OK"
+
+#: unfold/dialogs.py:104
+msgid "Create Archive"
+msgstr "압축 파일 만들기"
+
+#: unfold/dialogs.py:107
+msgid "Create"
+msgstr "만들기"
+
+#: unfold/dialogs.py:133
+msgid "Add Files…"
+msgstr "파일 추가…"
+
+#: unfold/dialogs.py:133
+msgid "Add Folder…"
+msgstr "폴더 추가…"
+
+#: unfold/dialogs.py:134
+msgid "Remove"
+msgstr "제거"
+
+#: unfold/dialogs.py:148
+msgid "Select a folder"
+msgstr "폴더를 선택하세요"
+
+#: unfold/dialogs.py:152
+msgid "Optional"
+msgstr "선택 사항"
+
+#: unfold/dialogs.py:153
+msgid "Show"
+msgstr "보이기"
+
+#: unfold/dialogs.py:159
+msgid "Password"
+msgstr "비밀번호"
+
+#: unfold/dialogs.py:160 unfold/window.py:202
+msgid "Name"
+msgstr "이름"
+
+#: unfold/dialogs.py:160
+msgid "Format"
+msgstr "형식"
+
+#: unfold/dialogs.py:161
+msgid "Location"
+msgstr "위치"
+
+#: unfold/dialogs.py:192
+msgid "Add"
+msgstr "추가"
+
+#: unfold/dialogs.py:198
+msgid "Add Files"
+msgstr "파일 추가"
+
+#: unfold/dialogs.py:201
+msgid "Add Folder"
+msgstr "폴더 추가"
+
+#: unfold/dialogs.py:258
+msgid "Could not open the archive"
+msgstr "압축 파일을 열 수 없습니다"
+
+#: unfold/dialogs.py:263
+msgid "Opening"
+msgstr "열기"
+
+#: unfold/dialogs.py:273
+msgid "Wrong password"
+msgstr "잘못된 비밀번호입니다"
+
+#: unfold/dialogs.py:273
+msgid "The password was not accepted."
+msgstr "비밀번호가 틀립니다."
+
+#: unfold/dialogs.py:276
+msgid "Could not extract"
+msgstr "압축을 풀 수 없습니다"
+
+#: unfold/dialogs.py:281
+msgid "Extracting"
+msgstr "압축 푸는 중"
+
+#: unfold/dialogs.py:293
+#, python-format
+msgid "“%s” already exists"
+msgstr "“%s” 항목이 이미 있습니다"
+
+#: unfold/dialogs.py:294
+msgid "Do you want to replace it?"
+msgstr "바꿀까요?"
+
+#: unfold/dialogs.py:302
+msgid "Could not create the archive"
+msgstr "압축 파일을 만들 수 없습니다"
+
+#: unfold/dialogs.py:307
+msgid "Creating"
+msgstr "압축 파일 만드는 중"
+
+#: unfold/sevenzip.py:70
+msgid ""
+"This archive uses a compression method that 7-Zip cannot read.\n"
+"For rar archives, install the 7zip-rar package."
+msgstr ""
+"이 압축 파일은 7-Zip에서 읽을 수 없는 압축 방식을 사용하고 있습니다.\n"
+"rar 압축 파일의 경우, 7zip-rar 패키지를 설치하세요."
+
+#: unfold/window.py:67 unfold/window.py:75
+msgid "Program"
+msgstr "프로그램"
+
+#: unfold/window.py:68
+msgid "Audio"
+msgstr "오디오"
+
+#: unfold/window.py:69
+msgid "Font"
+msgstr "글꼴"
+
+#: unfold/window.py:70
+msgid "Image"
+msgstr "이미지"
+
+#: unfold/window.py:71
+msgid "Archive"
+msgstr "압축 파일"
+
+#: unfold/window.py:72
+msgid "Markup"
+msgstr "마크업"
+
+#: unfold/window.py:73 unfold/window.py:74
+msgid "Text"
+msgstr "텍스트"
+
+#: unfold/window.py:76
+msgid "Video"
+msgstr "비디오"
+
+#: unfold/window.py:77
+msgid "Contacts"
+msgstr "연락처"
+
+#: unfold/window.py:78
+msgid "Calendar"
+msgstr "캘린더"
+
+#: unfold/window.py:79
+msgid "Document"
+msgstr "문서"
+
+#: unfold/window.py:80
+msgid "Presentation"
+msgstr "프레젠테이션"
+
+#: unfold/window.py:81
+msgid "Spreadsheet"
+msgstr "스프레드시트"
+
+#: unfold/window.py:88
+msgid "Folder"
+msgstr "폴더"
+
+#: unfold/window.py:91
+msgid "Binary"
+msgstr "바이너리"
+
+#: unfold/window.py:119
+msgid "About"
+msgstr "정보"
+
+#: unfold/window.py:121
+msgid "Quit"
+msgstr "끝내기"
+
+#: unfold/window.py:157
+msgid "Open an archive or create a new one"
+msgstr "압축 파일 열기 또는 새로 만들기"
+
+#: unfold/window.py:161
+msgid "Open…"
+msgstr "열기…"
+
+#: unfold/window.py:161
+msgid "Create…"
+msgstr "만들기…"
+
+#: unfold/window.py:178
+msgid "Scroll left"
+msgstr "왼쪽으로 스크롤"
+
+#: unfold/window.py:181
+msgid "Scroll right"
+msgstr "오른쪽으로 스크롤"
+
+#: unfold/window.py:215
+msgid "Size"
+msgstr "크기"
+
+#: unfold/window.py:220
+msgid "Type"
+msgstr "종류"
+
+#: unfold/window.py:224
+msgid "Modified"
+msgstr "수정일"
+
+#: unfold/window.py:262
+#, python-format
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d개 항목 선택됨"
+
+#: unfold/window.py:265
+#, python-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d개 항목"
+
+#: unfold/window.py:356
+msgid "Open Archive"
+msgstr "압축 파일 열기"
+
+#: unfold/window.py:358
+msgid "Open"
+msgstr "열기"
+
+#: unfold/window.py:360
+msgid "Archives"
+msgstr "압축 파일"
+
+#: unfold/window.py:364
+msgid "All files"
+msgstr "모든 파일"
+
+#: unfold/window.py:403
+msgid "Could not open the file"
+msgstr "파일을 열 수 없습니다"
+
+#: unfold/window.py:414
+#, python-format
+msgid "Extract into a folder named “%s”"
+msgstr "“%s” 폴더에 압축 풀기"
+
+#: unfold/window.py:436
+msgid "Could not open the folder"
+msgstr "폴더를 열 수 없습니다"
