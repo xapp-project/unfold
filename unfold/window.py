@@ -104,7 +104,7 @@ def header_button(icon, label, action):
 
 class UnfoldWindow(Gtk.ApplicationWindow):
     def __init__(self, app):
-        super().__init__(application=app, title="Unfold")
+        super().__init__(application=app, title=_("Archive Manager"))
         self.set_default_size(800, 560)
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_icon_name("unfold")
@@ -114,7 +114,7 @@ class UnfoldWindow(Gtk.ApplicationWindow):
         self.closing = False
         self.temp_dirs = []
 
-        self.header = Gtk.HeaderBar(title="Unfold", show_close_button=True)
+        self.header = Gtk.HeaderBar(title=_("Archive Manager"), show_close_button=True)
         menu = Gtk.Menu()
         menu.append(Gtk.MenuItem(label=_("About"), action_name="app.about"))
         menu.append(Gtk.SeparatorMenuItem())
